@@ -22,32 +22,5 @@ El programa principal (`main.py`) crea cuadrados y rectángulos, muestra:
 ## 🖼️ Evidencia
 <img width="1920" height="1080" alt="Captura de pantalla 2025-11-21 005510" src="https://github.com/user-attachments/assets/bec4f6fa-4ebd-4200-b095-ec314bcd4249" />
 
-classDiagram
-    class FiguraGeometrica {
-        -_ancho: float
-        -_alto: float
-        +_init_(ancho, alto)
-        +ancho: property (getter/setter)
-        +alto: property (getter/setter)
-        +area() float
-        +perimetro() NotImplementedError
-        +_str_() str
-    }
-    
-    class Cuadrado {
-        +_init_(lado)
-        +area() float
-        +perimetro() float
-        +_str_() str
-    }
-    
-    class Rectangulo {
-        +_init_(ancho, alto)
-        +area() float
-        +perimetro() float
-        +_str_() str
-    }
-    
-    FiguraGeometrica <|-- Cuadrado : hereda
-    FiguraGeometrica <|-- Rectangulo : hereda
-    
+<img width="608" height="684" alt="Captura de pantalla 2025-11-21 024427" src="https://github.com/user-attachments/assets/e1c8dceb-3940-4fed-85bd-6bbf6061d556" />
+
