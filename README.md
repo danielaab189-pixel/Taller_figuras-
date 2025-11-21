@@ -1,28 +1,23 @@
-# Taller de Figuras POO
 
-Proyecto de ejemplo en Python para practicar Programación Orientada a Objetos (POO).
+# Taller Figuras Geométricas (POO en Python)
 
-Contenido
-- `figura_geometrica.py` - clase base para figuras.
-- `rectangulo.py` - implementación de la clase Rectángulo.
-- `cuadrado.py` - implementación de la clase Cuadrado.
-- `main.py` - script principal para ejecutar ejemplos.
+Este proyecto implementa clases en Python aplicando **POO**:
+- Encapsulamiento con `@property` y `@setter`
+- Herencia y sobrescritura de métodos
+- Validaciones internas
+- Estándar PEP8
 
-Ejecutar
+## 📂 Clases
+- **FiguraGeometrica**: clase base con atributos `ancho` y `alto`.
+- **Cuadrado**: hereda de FiguraGeometrica, recibe un solo parámetro `lado`.
+- **Rectangulo**: hereda de FiguraGeometrica, recibe `ancho` y `alto`.
 
-1. Asegúrate de tener Python 3 instalado.
-2. En la carpeta del proyecto, ejecuta:
+## 📊 Ejecución
+El programa principal (`main.py`) crea cuadrados y rectángulos, muestra:
+- Área
+- Perímetro
+- Validación de errores
+- Impresión de objetos
 
-```
-python main.py
-```
-
-Notas
-- Se añadió un `.gitignore` para excluir `__pycache__/` y archivos temporales.
-- La carpeta `Taller_figuras-/` está excluida del repositorio por estar listada en `.gitignore`.
-
-Contribuciones
-- Si quieres mejorar el proyecto, crea una rama nueva, realiza cambios y abre un pull request.
-
-Soporte
-- Autor: `danielaab189-pixel` (ver en GitHub)
+## 🖼️ Evidencia
+<img width="1920" height="1080" alt="Captura de pantalla 2025-11-21 005510" src="https://github.com/user-attachments/assets/bec4f6fa-4ebd-4200-b095-ec314bcd4249" />
